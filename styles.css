@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.topo{
+    background-color: #fff;
+    position: relative;
+    width: 100vw;
+    height: 110px;
+}
+
+.topo p{
+    font-size: 16px;
+    color: #2f86d6;
+    margin-top: 10px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.topo h1{
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.topo .menu{
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+
+.topo a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #233032;
+    margin-left: 8px;
+    padding: 5px;
+}
+
+.topo img{
+    width: 70px;
+    height: 60px;
+    margin: 30px 0px 30px 185px;
+}
+
+.banner{
+    background-color: #2f86d6;
+    position: relative;
+    color: #fff;
+    width: 100vw;
+    height: 500px;
+}
+
+.banner img{
+    position: absolute;
+    top: 10%;
+    right: 5em;
+}
+
+.banner h2{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+.banner .p1{
+    position: absolute;
+    font-size: 18px;
+    top: 40%;
+    left: 5%;
+}
+
+.banner .p2{
+    width: 600px;
+    position: absolute;
+    font-size: 18px;
+    bottom: 30%;
+    left: 5%;
+}
+
+.anuncio1{
+    position: relative;
+    width: 100vw;
+    height: 110px;
+    background-color: #233032;
+    color: #fff;
+}
+
+.anuncio1 h2{
+    font-size: 24px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.anuncio1 p{
+    font-size: 18px;
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    margin-top: 10px;
+}
+
+.anuncio1 a{
+    background-color: #2f86d6;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+.anuncio1 a img{
+    margin-right: 10px;
+}
+
+.secao-informacoes{
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    width: 100vw;
+    height: 300px;
+}
+
+.secao-informacoes h2{
+    width: 700px;
+    margin: 30px auto;
+}
+
+ span{
+    color: #2f86d6;
+}
+
+.secao-informacoes div img{
+    width: 80px;
+}
+
+.secao-informacoes div{
+    width: 350px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.secao-informacoes .div1{
+    margin: 30px;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+.secao-informacoes .div2{
+    position: absolute;
+    top: 15%;
+    left: 40%;
+}
+
+.secao-informacoes .div3{
+    position: absolute;
+    top: 15%;
+    right: 5%;
+}
+
+.tabela-precos{
+    background-color: #f3f1f7;
+    width: 100vw;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.tabela-precos h2{
+    position: relative;
+    text-align: center;
+    top: 5%;
+}
+
+table{
+    border-collapse: collapse ;
+    text-align: center;
+    box-shadow: 0px 2px 40px #2f86d6;
+    margin: 70px auto;
+}
+
+table thead tr th{
+    margin: 0px;
+    padding: 30px;
+}
+
+table tbody tr td{
+    padding: 15px;
+}
+
+table thead tr th img{
+    width: 80px;
+}
+
+table thead tr th h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table thead tr th p{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.impar{
+    background-color: #f6f6f6;
+}
+
+.par{
+    background-color: #f1f3f7;
+}
+
+.anuncio2{
+    position: relative;
+    width: 100vw;
+    height: 100px;
+    background-color: #2f86d6;
+    color: #fff;
+}
+
+.anuncio2 h2{
+    font-size: 24px;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+.anuncio2 a{
+    background-color: #233032;
+    color: #fff;
+    padding: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+.anuncio2 a img{
+    margin-right: 10px;
+}
+
+.rodape{
+    position: relative;
+    width: 100vw;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.rodape div{
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.rodape div img{
+    width: 80px;
+    position: absolute;
+    left: 38%;
+}
+
+.rodape div h1{
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 5%;
+    right: 45%;
+}
+
+.rodape div p{
+    font-size: 16px;
+    color: #2f86d6;
+    margin-top: 10px;
+    position: absolute;
+    top: 10%;
+    right: 40%;
+}
+
+.rodape p{
+    line-height: 30px;
+}
+
+.pfinal{
+    margin-top: 150px;
+    background-color: #f3f1f7;
+    padding: 10px;
+}
+
+.pfinal a{
+    color: #2f86d6;
+    text-decoration: none;
+    font-weight: bold;
+}
